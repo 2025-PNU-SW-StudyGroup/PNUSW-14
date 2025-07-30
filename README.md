@@ -7,32 +7,6 @@
 <br/>
 
 
-## 1. 레파지토리 생성
-
-- https://classroom.github.com/a/wUrpZB4m
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-  <img src="https://github.com/user-attachments/assets/d82da173-34a9-4adf-82e6-b712c59ecc70" width="600px" alt="classroom에서 팀 생성 그림"/>
-- 레파지토리 생성 시 팀 이름은 `{조번호}` 형식으로 생성하세요.
-- 예를 들어, 3조의 팀명은 `03` 입니다.
-- 이 경우 `PNUSW-03`이라는 이름으로 레포지토리가 생성됩니다.
-- 팀원의 경우 생성되어 있는 팀에 참가해주세요. <br/>
-  팀에 참가하지 않았을 경우, 레포지토리에 대한 권한이 없어 PR 및 commit이 막힐 수 있습니다.
-  <img src="https://github.com/user-attachments/assets/e1eece39-9d07-485a-aadf-74479ee85d90" width="600px" alt="classroom에서 팀 참여 그림"/>
-<br/>
-
-
-## 2. 레파지토리 구성
-- 레파지토리 내에 `README.md` 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 파일을 작성하세요.
-- 레파지토리 내에 `docs` 폴더를 생성하고 폴더 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다.
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 폴더를 나누어 구성하세요.  
-<br/>
-
-
-## 3. README.md 가이드라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 7가지 항목이외에 프로젝트의 이해를 돕기위한 내용을 추가해도 됩니다.
-- `SAMPLE_README.md`가 단순한 형태의 예제이니 참고하세요.
-
 ### 1. 프로젝트 소개
 #### 1.1. 개발배경 및 필요성
 저희 팀원들은 지정주제에서 한국의 저출산 심화 현상을 고려하여서, 사회적으로도 의미있는 데이터 분석 주제를 찾다 지정주제인 서울형 키즈카페 입지분석을 선택하게 됐습니다.
@@ -110,9 +84,6 @@
 - 데이터 간 유클리디안 거리를 기준으로 가장 유사한 데이터끼리 묶어
 점점 큰 군집으로 합쳐가는 알고리즘
 
-
-![alt text](image.png)
-
 #### Mahalanobis 란?
 Mahalanobis 거리란, 공분산을 고려한 거리 측정 방법
 - GMM 알고리즘이란?
@@ -125,10 +96,12 @@ AIC 값이 낮을수록 모델이 데이터를 더 잘 설명한다.
 ### 3. 개발결과
 #### 3.1. 전체시스템 흐름도
 
-![alt text](image-2.png)
+<img width="2036" height="1134" alt="image-2" src="https://github.com/user-attachments/assets/99099dd5-3a73-4cf5-8928-938962bc42d4" />
+
 
 ### 행정동 선택
-![alt text](image-3.png)
+<img width="1018" height="567" alt="image-3" src="https://github.com/user-attachments/assets/afe989a9-5b17-4877-a35e-3c3bbebd3323" />
+
 
 #### 실루엣 점수등, 여러 알고리즘 대조결과 자양2동, 광장동이 공통 집합으로 선택됨 -> 자양2동, 광장동 선택
 ---
@@ -165,8 +138,9 @@ AIC 값이 낮을수록 모델이 데이터를 더 잘 설명한다.
   - 엘보우 기법, 실루엣 점수를 토대로 군집개수 선택
   - 군집화 결과 분석
 ### 3개의 알고리즘에 대한 교집합을 찾아서, 최종 격자 선정.
+<img width="1018" height="567" alt="image-4" src="https://github.com/user-attachments/assets/19ffbf62-9817-46c5-816c-6469afc7bbd2" />
 
-![alt text](image-4.png)
+
 
 ### 5. 소개 및 시연 영상
 > 클러스터링중독자_분석결과보고서.pdf 참고
